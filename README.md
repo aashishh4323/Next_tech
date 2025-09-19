@@ -218,24 +218,13 @@ npm run build
 # Serve dist/ folder with nginx/apache
 ```
 
-### Docker Deployment
-```dockerfile
-# Dockerfile example
-FROM python:3.11-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
-```
-
 ## Team
 
-- **Ayush Kumar** - Team Leader / ML Developer
-- **Ashish Kumar** - AI/ML Developer  
-- **Ayoan Singh** - 3D Artist
-- **Aryan Kumar** - ML Developer
-- **Ayushman Praharaj** - Full Stack AI Developer
+- **Ayush Kumar** 
+- **Ashish Kumar** 
+- **Ayoan Singh** 
+- **Aryan Kumar** 
+- **Ayushman Praharaj** 
 
 ## Contributing
 
@@ -245,23 +234,9 @@ CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Security Notice
 
 This is a military-grade surveillance system. Ensure proper security measures are in place before deployment in production environments.
-
-## Support
-
-For technical support or questions:
-- Create an issue on GitHub
-- Contact: support@guard-x.com
-- Documentation: [Wiki](https://github.com/your-org/guard-x-surveillance/wiki)
-
----
-
 
 
 https://github.com/user-attachments/assets/f21886b6-1e80-4104-bd7b-9439fb9f35b0
@@ -278,6 +253,7 @@ https://github.com/user-attachments/assets/f21886b6-1e80-4104-bd7b-9439fb9f35b0
   <strong>Guard-X AI Surveillance System</strong><br>
   Advanced AI-Powered Security Solutions
 </div>
+
 
 
 
