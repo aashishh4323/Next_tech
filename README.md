@@ -262,10 +262,6 @@ For technical support or questions:
 
 ---
 
-<div align="center">
-  <strong>Guard-X AI Surveillance System</strong><br>
-  Advanced AI-Powered Security Solutions
-</div>
 
 
 https://github.com/user-attachments/assets/f21886b6-1e80-4104-bd7b-9439fb9f35b0
@@ -282,6 +278,7 @@ https://github.com/user-attachments/assets/f21886b6-1e80-4104-bd7b-9439fb9f35b0
   <strong>Guard-X AI Surveillance System</strong><br>
   Advanced AI-Powered Security Solutions
 </div>
+
 
 
 
