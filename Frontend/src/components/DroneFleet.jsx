@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Zap, MapPin, Battery, Signal, AlertTriangle, Play, Pause, RotateCcw, Map, Users, Wifi } from 'lucide-react';
+import DroneMap from './DroneMap';
 
 export default function DroneFleet() {
   const [drones, setDrones] = useState({
@@ -193,14 +194,42 @@ export default function DroneFleet() {
 
         {/* Middle - Map Area */}
         <section className="col-span-6 rounded-2xl overflow-hidden border border-slate-800/50 shadow-lg bg-gradient-to-br from-slate-900/10 to-slate-900/5">
-          <div className="h-[62vh] relative bg-slate-800/20 flex items-center justify-center">
-            <div className="text-center">
-              <Map className="w-16 h-16 text-slate-600 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-slate-400 mb-2">Tactical Map View</h3>
-              <p className="text-slate-500">Real-time drone positions and patrol routes</p>
-              <div className="mt-4 text-sm text-slate-600">
-                📍 Area: Delhi NCR Sector | Grid: 28.70°N, 77.10°E
+          <div className="h-[62vh] relative">
+            <DroneMap drones={drones} selectedDrone={selected} />
+            
+            {/* Map Overlay Info */}
+            <div className="absolute top-4 left-4 bg-slate-900/80 backdrop-blur-sm rounded-lg p-3 text-white z-20">
+              <div className="text-sm font-semibold mb-1">Live Tactical Map</div>
+              <div className="text-xs text-slate-300">Delhi NCR Sector | Grid: 28.70°N, 77.10°E</div>
+              <div className="flex items-center gap-4 mt-2 text-xs">
+                <div className="flex items-center gap-1">
+                  <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                  <span>Active</span>
+                </div>
+                <div className="flex items-center gap-1">
+                  <div className="w-2 h-2 bg-red-400 rounded-full"></div>
+                  <span>Threat Detected</span>
+                </div>
+                <div className="flex items-center gap-1">
+                  <div className="w-2 h-2 bg-slate-400 rounded-full"></div>
+                  <span>Inactive</span>
+                </div>
               </div>
+            </div>
+
+            {/* Map Controls */}
+            <div className="absolute top-4 right-4 flex flex-col gap-2 z-20">
+              <button className="bg-slate-900/80 backdrop-blur-sm text-white p-2 rounded-lg hover:bg-slate-800 transition">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                </svg>
+              </button>
+              <button className="bg-slate-900/80 backdrop-blur-sm text-white p-2 rounded-lg hover:bg-slate-800 transition">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </button>
             </div>
           </div>
         </section>
@@ -345,6 +374,8 @@ export default function DroneFleet() {
     </div>
   );
 }
+
+
 
 
 

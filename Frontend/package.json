@@ -14,9 +14,11 @@
     "@tailwindcss/vite": "^4.1.13",
     "axios": "^1.12.2",
     "framer-motion": "^10.16.4",
+    "leaflet": "^1.9.4",
     "lucide-react": "^0.263.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
     "recharts": "^2.15.4",
     "tailwindcss": "^4.1.13"
   },
@@ -33,4 +35,3 @@
     "vite": "^7.1.2"
   }
 }
-
