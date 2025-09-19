@@ -278,6 +278,11 @@ https://github.com/user-attachments/assets/f21886b6-1e80-4104-bd7b-9439fb9f35b0
 <img width="1896" height="865" alt="Screenshot 2025-09-20 044552" src="https://github.com/user-attachments/assets/590cdf2f-d358-4478-9695-9c6f8f6e3c91" />
 <img width="1898" height="863" alt="Screenshot 2025-09-20 044537" src="https://github.com/user-attachments/assets/acee9c46-53f8-4222-8eec-decc00c58f09" />
 <img width="1891" height="866" alt="Screenshot 2025-09-20 044521" src="https://github.com/user-attachments/assets/0e84ab28-768a-4912-82b0-bd312a85a35c" />
+<div align="center">
+  <strong>Guard-X AI Surveillance System</strong><br>
+  Advanced AI-Powered Security Solutions
+</div>
+
 
 
 
