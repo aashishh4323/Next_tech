@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
           
           <div className="mt-8 pt-6 border-t border-slate-700/50">
-            <p className="text-emerald-400 font-bold text-lg animate-pulse">JAI HIND 🇮🇳</p>
+            <p className="text-emerald-400 font-bold text-lg animate-pulse">JAI HIND</p>
           </div>
         </div>
       </div>

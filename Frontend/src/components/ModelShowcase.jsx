@@ -30,7 +30,7 @@ export default function ModelShowcase() {
           Guard-X Beetle Drone - 3D Holographic Display
         </h2>
         <p className="text-emerald-400 text-center mb-12">
-          Bio-inspired micro-scale design with advanced 3D visualization
+          Bio-inspired micro-scale design with 3D visualization
         </p>
         
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -223,11 +223,11 @@ export default function ModelShowcase() {
                 <h3 className="text-xl font-semibold text-white">3D Model Specifications</h3>
               </div>
               <ul className="space-y-2 text-slate-300">
-                <li>• Real-time 3D transformation</li>
+                
                 <li>• Multi-axis rotation system</li>
                 <li>• Holographic projection layers</li>
                 <li>• Dynamic particle effects</li>
-                <li>• Interactive 3D controls</li>
+                
               </ul>
             </div>
 
@@ -239,7 +239,6 @@ export default function ModelShowcase() {
               <ul className="space-y-2 text-slate-300">
                 <li>• CSS 3D transforms</li>
                 <li>• Hardware acceleration</li>
-                <li>• Real-time lighting effects</li>
                 <li>• Perspective projection</li>
                 <li>• Smooth interpolation</li>
               </ul>
@@ -255,7 +254,7 @@ export default function ModelShowcase() {
                 <li>• Holographic overlays</li>
                 <li>• Particle system animation</li>
                 <li>• 3D scanning rings</li>
-                <li>• Real-time shadows</li>
+                
               </ul>
             </div>
           </div>

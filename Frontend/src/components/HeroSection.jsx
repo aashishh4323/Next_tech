@@ -11,7 +11,7 @@ export default function HeroSection() {
   const { setCurrentPage } = arguments[0] || {};
 
   const stats = [
-    { value: "95%", label: "Detection Accuracy" },
+    { value: "80%", label: "Detection Accuracy" },
     { value: "24/7", label: "Surveillance" },
     { value: "∞", label: "Solar Powered" }
   ];
@@ -81,10 +81,10 @@ export default function HeroSection() {
         {/* Typewriter Subtitle */}
         <div className="text-xl md:text-2xl text-slate-300 mb-12 max-w-4xl mx-auto leading-relaxed">
           <span className="inline-block animate-pulse">A </span>
-          <span className="text-emerald-400 font-semibold animate-pulse delay-100">compact, intelligent, and covert</span>
-          <span className="inline-block animate-pulse delay-200"> AI-powered surveillance solution that </span>
-          <span className="text-teal-400 font-semibold animate-pulse delay-300">proactively detects unusual human activities</span>
-          <span className="inline-block animate-pulse delay-400"> in high-risk zones</span>
+          <span className="text-emerald-400 font-semibold animate-pulse delay-100"> compact, intelligent, and covert </span>
+          <span className="inline-block animate-pulse delay-200">  AI-powered surveillance solution that </span>
+          <span className="text-teal-400 font-semibold animate-pulse delay-300"> proactively detects unusual human activities </span>
+          <span className="inline-block animate-pulse delay-400">  in high-risk zones</span>
         </div>
 
         {/* Enhanced Animated Stats */}
